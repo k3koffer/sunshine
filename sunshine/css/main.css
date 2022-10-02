@@ -1,0 +1,206 @@
+
+ /* TEXT CAROUSEL (MAIN TEXT) */
+
+
+.imgback{
+    position: static;
+    text-align: center;
+    width: 100%;
+    
+    background-color: #000000;
+    background: url(https://i.yapx.ru/UFaR9.png);
+}
+
+.carousel-firstmargin{
+    margin-bottom: -70px;
+    width: unset
+}
+
+.carousel-maintext{
+    color: white;
+    font-weight: 700;
+    font-family: 'SF Pro Display', sans-serif;
+    height: 150px;
+}
+
+@media (min-width: 650px) and (max-width: 999px) {
+    .carousel-maintext{
+        font-size: 35px;
+        width: 500px;
+    }
+ }
+
+ @media (min-width: 1px) and (max-width: 649px) {
+    .carousel-maintext{
+        font-size: 30px;
+        width: 400px;
+    }
+ }
+
+ @media (min-width: 1000px) {
+    .carousel-maintext{
+        font-size: 50px;
+        width: 800px;
+    }
+ }
+
+/* NAVBAR CAROUSEL (FORUM RULES) */
+
+.carousel-navbar-forum{
+    left: 5%!important;
+    top: 3%!important;
+    font-size: 23px;
+    color: white;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    height: 50px;
+    width: 500px;
+}
+
+.carousel-navbar-rules{
+    top: 3%!important;
+    font-size: 23px;
+    color: white;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    height: 50px;
+    width: 500px;
+}
+
+@media (min-width: 1px) and (max-width: 699px) {
+    .carousel-navbar-rules{
+        left: 22%!important;
+    }
+ }
+
+@media (min-width: 700px) and (max-width: 999px) {
+    .carousel-navbar-rules{
+        left: 15%!important;
+    }
+ }
+
+@media (min-width: 1000px) and (max-width: 1349px) {
+    .carousel-navbar-rules{
+        left: 12%!important;
+    }
+ }
+
+ @media (min-width: 1350px) {
+    .carousel-navbar-rules{
+        left: 11%!important;
+    }
+ }
+
+ /* --- PODROBNEE --- */
+
+ .top-podrobnee{
+    width: 210px;
+    height: 50px;
+    top: 65%;
+    left: 15%;
+ }
+
+ .text-podrobnee{
+    color: white;
+    font-size: 27px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+
+    ;
+ }
+
+ .border-podrobnee{
+    border: 2px solid;
+    border-radius: 30px;
+    border-color: white;
+
+ }
+
+/* --- MAIN IMG --- */
+
+.imgmain{
+    top: 15%;
+    left: 55%;
+}
+
+@media (max-width: 1450px) {
+    .imgmain{
+        visibility: hidden;
+    }
+ }
+
+/* Scroll Down */
+
+
+/* --- LINKS --- */
+
+.linkvk{
+    top: 94% ;
+    left: 80%;
+}
+
+.linkyoutube{
+    top: 94% ;
+    left: 84%;
+}
+
+.linkforum{
+    top: 94% ;
+    left: 88%;
+}
+
+.fa-2xl{
+    font-size: 3em;
+}
+
+
+/*     ---       OTHER       ---      */
+
+.carousel-navbar-link{
+    width: 100px;
+}
+
+.start-30{
+    left: 10%!important;
+}
+
+.top-40{
+    top: 40%!important;
+}
+
+.carousel-settings1{
+    --animate-duration: 0.3s;
+    --animate-delay: 0.3s;
+    --animate-repeat: 1;
+    --q-primary: #1976d2;
+    --q-secondary: #26a69a;
+    --q-accent: #9c27b0;
+    --q-positive: #21ba45;
+    --q-negative: #c10015;
+    --q-info: #31ccec;
+    --q-warning: #f2c037;
+    --q-dark: #1d1d1d;
+    --q-dark-page: #121212;
+    --q-size-xs: 0;
+    --q-size-sm: 600px;
+    --q-size-md: 1024px;
+    --q-size-lg: 1440px;
+    --q-size-xl: 1920px;
+    --q-transition-duration: .3s;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: Poppins,sans-serif!important;
+    color: #fff;
+    direction: ltr;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    flex: 0 0 auto;
+    margin-top: 48px;
+    max-width: 100%;
+    min-width: 0;
+    height: auto;
+    width: 100%;
+}
