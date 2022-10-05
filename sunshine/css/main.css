@@ -1,0 +1,410 @@
+
+ /* TEXT CAROUSEL (MAIN TEXT) */
+
+
+.imgback{
+    position: static;
+    text-align: center;
+    width: 100%;
+    
+    background-size: 100%;
+    background-color: #000000;
+    background: url(https://i.yapx.ru/UFaR9.png);
+}
+
+.carousel-firstmargin{
+    height: 1050px;
+    margin-bottom: -60px;
+    background: url(https://i.yapx.ru/UKQOK.png);
+    background-size: cover!important;
+}
+
+.carousel-maintext{
+    color: white;
+    font-weight: 700;
+    font-family: 'SF Pro Display', sans-serif;
+    height: 150px;
+}
+
+@media (min-width: 650px) and (max-width: 999px) {
+    .carousel-maintext{
+        font-size: 35px;
+        width: 500px;
+    }
+ }
+
+ @media (min-width: 1px) and (max-width: 649px) {
+    .carousel-maintext{
+        font-size: 30px;
+        width: 400px;
+    }
+ }
+
+ @media (min-width: 1000px) {
+    .carousel-maintext{
+        font-size: 50px;
+        width: 800px;
+    }
+ }
+
+/* NAVBAR CAROUSEL (FORUM RULES) */
+
+.carousel-navbar-forum{
+    left: 5%!important;
+    top: 3%!important;
+    font-size: 23px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    height: 50px;
+    width: 500px;
+}
+
+.carousel-navbar-rules{
+    top: 3%!important;
+    font-size: 23px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    height: 50px;
+    width: 500px;
+}
+
+.s-btn{
+    display: inline-block;
+    overflow: hidden;
+    transition: 0.5s;
+    color: white;
+    text-decoration: none;
+}
+
+.s-btn:hover {
+    color: rgb(202, 202, 202);
+} 
+
+@media (min-width: 1px) and (max-width: 699px) {
+    .carousel-navbar-rules{
+        left: 22%!important;
+    }
+ }
+
+@media (min-width: 700px) and (max-width: 999px) {
+    .carousel-navbar-rules{
+        left: 15%!important;
+    }
+ }
+
+@media (min-width: 1000px) and (max-width: 1349px) {
+    .carousel-navbar-rules{
+        left: 12%!important;
+    }
+ }
+
+ @media (min-width: 1350px) {
+    .carousel-navbar-rules{
+        left: 11%!important;
+    }
+ }
+
+ /* --- PODROBNEE --- */
+
+ .top-podrobnee{
+    width: 210px;
+    height: 50px;
+    top: 65%;
+    left: 15%;
+ }
+
+ .text-podrobnee{
+    font-size: 27px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    color: white
+    ;
+ }
+
+ .border-podrobnee{
+    border: 2px solid;
+    border-radius: 30px;
+    border-color: white;
+    transition: 0.5s;
+
+ }
+
+ .border-podrobnee:hover{
+    border-color: rgb(202, 202, 202);
+ }
+
+/* --- MAIN IMG --- */
+
+.imgmain{
+    top: 15%;
+    left: 55%;
+}
+
+@media (max-width: 1450px) {
+    .imgmain{
+        visibility: hidden;
+    }
+ }
+
+/* Scroll Down */
+
+
+/* --- LINKS --- */
+
+.l-s-btn{
+    display: inline-block;
+    overflow: hidden;
+    transition: 0.5s;
+    color: white;
+    text-decoration: none;
+}
+
+.l-s-btn:hover{
+    color: rgb(202, 202, 202);
+}
+
+.l-s-fs{
+    font-size: 35px;
+}
+
+.linkvk{
+    top: 93% ;
+    left: 90.4%;
+}
+
+.linkyoutube{
+    top: 93% ;
+    left: 93%;
+}
+
+.linkforum{
+    top: 93% ;
+    left: 96%;
+}
+
+.fa-2xl{
+    font-size: 3em;
+}
+
+@media (max-width: 1450px) {
+    .linkvk{
+        left: 2%
+    }
+    .linkyoutube{
+        left: 6%
+    }
+    .linkforum{
+        left: 10%
+    }
+ }
+
+ @media (max-width: 1000px) {
+    .linkvk{
+        left: 2%
+    }
+    .linkyoutube{
+        left: 7%
+    }
+    .linkforum{
+        left: 13%
+    }
+ }
+
+ @media (max-width: 700px) {
+    .linkvk{
+        left: 2%
+    }
+    .linkyoutube{
+        left: 11%
+    }
+    .linkforum{
+        left: 21%
+    }
+ }
+
+/*     ---       OTHER       ---      */
+
+.carousel-navbar-link{
+    width: 100px;
+}
+
+.start-30{
+    left: 10%!important;
+}
+
+.top-40{
+    top: 40%!important;
+}
+
+.carousel-settings1{
+    --animate-duration: 0.3s;
+    --animate-delay: 0.3s;
+    --animate-repeat: 1;
+    --q-primary: #1976d2;
+    --q-secondary: #26a69a;
+    --q-accent: #9c27b0;
+    --q-positive: #21ba45;
+    --q-negative: #c10015;
+    --q-info: #31ccec;
+    --q-warning: #f2c037;
+    --q-dark: #1d1d1d;
+    --q-dark-page: #121212;
+    --q-size-xs: 0;
+    --q-size-sm: 600px;
+    --q-size-md: 1024px;
+    --q-size-lg: 1440px;
+    --q-size-xl: 1920px;
+    --q-transition-duration: .3s;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: Poppins,sans-serif!important;
+    color: #fff;
+    direction: ltr;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    flex: 0 0 auto;
+    margin-top: 48px;
+    max-width: 100%;
+    min-width: 0;
+    height: auto;
+    width: 100%;
+}
+
+/* --- SECOND PAGE --- */
+
+
+
+/* --- DIV SETTINGS --- */
+
+.s-spage{
+
+    height: 1050px;
+    background-size: cover!important;
+    background-color: rgb(34, 34, 34);
+}
+
+/* --- MAIN TEXT --- */
+
+    .s-sp-maintext{
+        font-size: 80px;
+        color: white;
+        font-weight: 100;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: -20px;
+        
+    }
+
+    .s-sp-gradient{
+        font-size: 80px;
+        font-weight: 700;
+        background: linear-gradient(to bottom, red, rgb(43, 43, 43)); 
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .s-sp-margintext{
+        position: absolute;
+        left: 10%;
+        right: auto;
+        top: 130%;
+    }
+
+    .s-sp-desctext-bold{
+        top: 155%;
+        left: 11%;
+        position: absolute;
+        font-size: 30px;
+        color: rgb(255, 75, 75);
+        font-weight: 700;
+    }
+
+    .s-sp-desctext-bold1{
+        top: 155%;
+        left: 18%;
+        position: absolute;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+    }
+
+    .s-sp-desctext{
+        top: 155%;
+        left: 24%;
+        position: absolute;
+        font-weight: 100;
+        font-size: 30px;
+        color: white;
+    }
+
+    .s-sp-desctext-1{
+        top: 159%;
+        left: 11%;
+        position: absolute;
+        font-weight: 100;
+        font-size: 30px;
+        color: white;
+    }
+
+    .s-sp-desctext-2{
+        top: 166%;
+        left: 11%;
+        position: absolute;
+        font-weight: 100;
+        font-size: 30px;
+        color: white;
+    }
+
+    .s-sp-desctext-2-bold{
+        top: 166%;
+        left: 29.5%;
+        position: absolute;
+        font-size: 30px;
+        color: rgb(255, 75, 75);
+        font-weight: 700;
+    }
+
+    .s-sp-desctext-3{
+        top: 166%;
+        left: 35.5%;
+        position: absolute;
+        font-weight: 100;
+        font-size: 30px;
+        color: white;
+    }
+
+    .s-sp-desctext-4{
+        top: 170%;
+        left: 11%;
+        position: absolute;
+        font-weight: 100;
+        font-size: 30px;
+        color: white;
+    }
+
+    /* --- SEC IMG --- */
+
+    .s-sp-img-ss{
+        top: 110%;
+        left: 80%;
+    }
+
+
+    /* --- --- */
+
+    .s-sp-div-ss{
+        width: 500px;
+        height: 200px;
+        position: absolute;
+        left: 10%;
+        top: 155%;
+    }
+
+    .s-sp-color{
+        position: absolute;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+    }
